@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8000291029F6876800D0DDC7 /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8000290F29F6876800D0DDC7 /* ColorsTableVC.swift */; };
+		8000291229F689FF00D0DDC7 /* ColorsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8000291129F689FF00D0DDC7 /* ColorsDetailsVC.swift */; };
 		80818FBB29E91DA100AE5A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80818FBA29E91DA100AE5A38 /* AppDelegate.swift */; };
 		80818FBD29E91DA100AE5A38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80818FBC29E91DA100AE5A38 /* SceneDelegate.swift */; };
 		80818FBF29E91DA100AE5A38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80818FBE29E91DA100AE5A38 /* ViewController.swift */; };
 		80818FC229E91DA100AE5A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80818FC029E91DA100AE5A38 /* Main.storyboard */; };
 		80818FC429E91DA500AE5A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80818FC329E91DA500AE5A38 /* Assets.xcassets */; };
 		80818FC729E91DA500AE5A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80818FC529E91DA500AE5A38 /* LaunchScreen.storyboard */; };
+		80A098B42A00F0C8009BDE6F /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A098B32A00F0C8009BDE6F /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8000290F29F6876800D0DDC7 /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
+		8000291129F689FF00D0DDC7 /* ColorsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailsVC.swift; sourceTree = "<group>"; };
 		80818FB729E91DA100AE5A38 /* RandomColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80818FBA29E91DA100AE5A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80818FBC29E91DA100AE5A38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		80818FC329E91DA500AE5A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80818FC629E91DA500AE5A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80818FC829E91DA500AE5A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A098B32A00F0C8009BDE6F /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				80818FBA29E91DA100AE5A38 /* AppDelegate.swift */,
 				80818FBC29E91DA100AE5A38 /* SceneDelegate.swift */,
+				8000290F29F6876800D0DDC7 /* ColorsTableVC.swift */,
+				8000291129F689FF00D0DDC7 /* ColorsDetailsVC.swift */,
 				80818FBE29E91DA100AE5A38 /* ViewController.swift */,
+				80A098B32A00F0C8009BDE6F /* UIColor+Ext.swift */,
 				80818FC029E91DA100AE5A38 /* Main.storyboard */,
 				80818FC329E91DA500AE5A38 /* Assets.xcassets */,
 				80818FC529E91DA500AE5A38 /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				80818FBF29E91DA100AE5A38 /* ViewController.swift in Sources */,
+				8000291029F6876800D0DDC7 /* ColorsTableVC.swift in Sources */,
 				80818FBB29E91DA100AE5A38 /* AppDelegate.swift in Sources */,
+				80A098B42A00F0C8009BDE6F /* UIColor+Ext.swift in Sources */,
 				80818FBD29E91DA100AE5A38 /* SceneDelegate.swift in Sources */,
+				8000291229F689FF00D0DDC7 /* ColorsDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
